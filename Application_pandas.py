@@ -6,7 +6,7 @@ CONTACTS_PATH = os.path.join(CURRENT_PATH,"data","contacts.tsv")
 # %%
 print(CONTACTS_PATH)
 contacts_df = pd.read_csv(CONTACTS_PATH, sep="\t")
-print(contacts_df.head(10))
+print(contacts_df.head(15))
 print(contacts_df.info())
 print('Shape:', contacts_df.shape)
 print(contacts_df['state'].describe())
